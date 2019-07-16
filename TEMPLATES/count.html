@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>counted</title>
+</head>
+<body>
+<h1>
+Counted Value : {{listlenth}}
+<br>
+</h1>
+You Written : {{fulltext}}
+<br>
+{%for word, value in worddictionary%}
+{{word}} = {{value}}
+<br>
+{% endfor %}
+</body>
+</html>

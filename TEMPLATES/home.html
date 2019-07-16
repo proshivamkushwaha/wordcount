@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>wordcount wabsite</title>
+</head>
+<body>
+<h1>Wordcout Wabsite</h1>
+<form action="{% url 'count' %}">
+    <textarea name="text"  cols="40" rows="10"></textarea>
+    <br>
+    <input type="submit" value="Count!"/>
+</form>
+</body>
+</html>
